@@ -1,13 +1,11 @@
 package com.example;
 
-import io.micronaut.http.annotation.PathVariable;
 import io.micronaut.websocket.WebSocketBroadcaster;
 import io.micronaut.websocket.WebSocketSession;
 import io.micronaut.websocket.annotation.OnClose;
 import io.micronaut.websocket.annotation.OnMessage;
 import io.micronaut.websocket.annotation.OnOpen;
 import io.micronaut.websocket.annotation.ServerWebSocket;
-import io.reactivex.rxjava3.core.Completable;
 import jakarta.inject.Inject;
 import org.reactivestreams.Publisher;
 import io.reactivex.rxjava3.core.Flowable;
